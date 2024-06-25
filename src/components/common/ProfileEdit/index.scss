@@ -1,0 +1,36 @@
+
+
+
+.profile-edit-input {
+    display: grid;
+    margin-top: 40px;
+    gap: 10px;
+    
+    label{
+        font-family: system-ui;
+        color: black ;
+        padding: 10px;
+        font-weight: 600;
+    }
+}
+
+.save-container{
+    display: flex;
+    justify-content: center;
+}
+
+.save-btn {
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(73, 155, 223);
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-family: system-ui;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}

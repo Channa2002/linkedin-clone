@@ -1,0 +1,94 @@
+.like-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5 10px;
+    cursor: pointer;
+    margin-bottom: -20px;
+
+    .like-comment{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .comment-input {
+        height: 40px;
+        background-color: whitesmoke;
+        padding-left: 15px;
+        border-radius: 30px;
+        border: 1px solid #b1b0b0;
+        color:#777474 ;
+        font-size: 16px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .all-comments{
+        display: flex;
+        
+    }
+    .comment-input:focus {
+        outline: 1px solid #797777;
+        color:#838181;
+    }
+    
+    .add-comment-btn{
+        width: 150px;
+        height: 35px;
+        background-color:  rgb(89, 89, 219)  ;
+        outline: none;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 5px;
+    }
+    .hr-tag hr{
+       margin-right: 5px;
+       margin-left: 5px;
+       margin-top: -15px;
+       border-top: 1px solid rgb(220, 220, 224) ;
+    }
+
+    p{
+        font-family: system-ui;
+        font-weight: 400;
+        color: rgb(161, 161, 173);
+        font-size: 13px;
+        margin-left: 6px;
+    }
+
+    .like-btn {
+        color: black;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .likes-comment-inner {
+        display: flex;
+        align-items: center;
+        margin-top: -20px;
+        .blue {
+            color: rgb(89, 89, 219) ;
+        }
+       
+        .black {
+            color:rgba(0, 0, 0, 0.835) ;
+        }
+
+        p{
+            font-family: system-ui;
+            font-weight: 600;
+            color: rgb(161, 161, 173);
+            font-size: 16px;
+            margin-left: 6px;
+           
+        }
+
+    }
+}
+
+
+//  signin with google is workign ? yes   no its not  remove sign in with google,  we only go with email and pass 
