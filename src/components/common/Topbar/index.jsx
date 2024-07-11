@@ -1,8 +1,8 @@
 
 import './index.scss';
 import LinkedinLogo from '../../../assets/LinkedinLogo.png';
-import { AiOutlineHome, AiOutlineUserSwitch, AiOutlineSearch, AiOutlineMessage, AiOutlineBell} from "react-icons/ai";
-import { BsBriefcase } from "react-icons/bs";
+import { AiOutlineHome} from "react-icons/ai";
+// import { BsBriefcase } from "react-icons/bs";
 import user from '../../../assets/user.png';
 import { useNavigate } from 'react-router-dom';
 import ProfilePopup from "../ProfilePopup";
@@ -32,16 +32,16 @@ export default function Topbar() {
 
        <div className='react-icons'>
 
-       <AiOutlineSearch style={{fontSize:"30px"}} className='react-icon'/>
+       {/* <AiOutlineSearch style={{fontSize:"30px"}} className='react-icon'/> */}
 
       <AiOutlineHome style={{ fontSize:"30px"}} className='react-icon' onClick={() =>goToRoute('/home')} />
 
-       <AiOutlineUserSwitch style={{ fontSize:"30px"}} 
-       className='react-icon'/>
+       {/* <AiOutlineUserSwitch style={{ fontSize:"30px"}}  */}
+      {/* //  className='react-icon'/> */}
        
-       <BsBriefcase style={{fontSize:"30px"}} className='react-icon' />
-       <AiOutlineMessage style={{fontSize:"30px"}} className='react-icon' />
-       <AiOutlineBell style={{ fontSize:"30px"}} className='react-icon' />
+       {/* <BsBriefcase style={{fontSize:"30px"}} className='react-icon' /> */}
+       {/* <AiOutlineMessage style={{fontSize:"30px"}} className='react-icon' /> */}
+       {/* <AiOutlineBell style={{ fontSize:"30px"}} className='react-icon' /> */}
 
        </div>
 
